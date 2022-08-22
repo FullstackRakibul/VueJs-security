@@ -1,13 +1,13 @@
 <template>
     <Splide :options="options">
         <SplideSlide>
-            <Slider3 />
-        </SplideSlide>
-        <SplideSlide>
             <Slider1 />
         </SplideSlide>
         <SplideSlide>
             <Slider4 />
+        </SplideSlide>
+        <SplideSlide>
+            <Slider3 />
         </SplideSlide>
         <SplideSlide>
             <Slider2 />

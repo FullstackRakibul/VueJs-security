@@ -67,12 +67,14 @@
     <!-- Design Section end -->
 
     <!-- Card Design start -->
+
     <div class="container mx-auto px-20">
 
         <div style='background-color:rgb(255, 255, 255)'>
             <div class="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4 lg:pt-10 lg:pb-10" style="cursor: auto;">
 
-                <div class="p-6 bg-gray-100 rounded-lg hover:shadow-md">
+            
+                <div class="p-6 bg-gray-100 rounded-lg hover:shadow-md" >
 
                     <div class="mb-5">
 
@@ -96,7 +98,6 @@
                     </p>
 
                 </div>
-
                 <div class="p-6 bg-gray-100 rounded-lg hover:shadow-md">
 
                     <div class="mb-5">
@@ -172,7 +173,6 @@
                     </p>
 
                 </div>
-
             </div>
         </div>
     </div>

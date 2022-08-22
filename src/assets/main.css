@@ -4,3 +4,10 @@
 
 
 
+.splide__pagination__page.is-active {
+    background: #0039ff;
+}
+
+.splide__pagination__page {
+    background: #7979fa;
+}

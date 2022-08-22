@@ -17,8 +17,7 @@
                             class="h-1 bg-aqua scale-x-0 group-hover:scale-75 transsition-transform origin-left rounded-full duration-300 ease-out" />
                     </li>
                 </ul>
-                <button class="flex justify-center items-center h-10 px-7 font-medium text-white bg-aqua rounded-md">Get
-                    Queue</button>
+                <button class="flex justify-center items-center h-10 px-7 font-medium text-white bg-aqua rounded-md">Get a quote</button>
 
             </div>
 
