@@ -1,41 +1,42 @@
-
 <template>
-    <Splide :options="{
-        direction: 'ttb',
-        wheel: true,
-        wheelDelay:20,
-        height:'100vh',
-        arrows:false,
-        waitForTransition:true,
-    }">
+    <Splide :options="options">
         <SplideSlide>
-            <SingleSlider />
+            <Slider3 />
         </SplideSlide>
         <SplideSlide>
             <Slider1 />
         </SplideSlide>
         <SplideSlide>
+            <Slider4 />
+        </SplideSlide>
+        <SplideSlide>
             <Slider2 />
         </SplideSlide>
-
     </Splide>
-    <NavBar class="fixed top-0 left-0 w-full" />
-
 </template>
 
 <script setup>
+import { reactive } from "vue"
 
-import NavBar from '../components/NavBar.vue';
-import SingleSlider from '../components/SingleSlider.vue'
-import Slider1 from '../components/Slider1.vue';
-import Slider2 from '../components/Slider2.vue';
-import WorkPage from '../pages/WorkPage.vue'
+import "@splidejs/vue-splide/css"
 
+import SingleSlider from "@/components/SingleSlider.vue"
+import Slider1 from "@/components/Slider1.vue"
+import Slider2 from "@/components/Slider2.vue"
+import Slider3 from "@/components/Slider3.vue"
+import Slider4 from "@/components/Slider4.vue"
 
-
-import "@splidejs/vue-splide/css";
+const options = reactive({
+    direction: "ttb",
+    wheel: true,
+    wheelMinThreshold: 70,
+    wheelSleep: 500,
+    height: "100vh",
+    arrows: false,
+    waitForTransition: true,
+    drag:true,
+})
 </script>
 
-<style lang="scss" scoped>
-
+<style>
 </style>

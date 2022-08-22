@@ -1,14 +1,11 @@
 <script setup>
-import HomePage from './pages/HomePage.vue';
-import WorkPage from './pages/WorkPage.vue';
-
+import NavBar from "@/components/NavBar.vue"
+import NavMenu from "@/components/NavMenu.vue";
 </script>
 
 <template>
-
-<HomePage/>
+    <div>
+        <NavMenu class="fixed top-0 left-0 w-full z-[9999]" />
+        <router-view></router-view>
+    </div>
 </template>
-
-<style scoped>
-
-</style>

@@ -1,20 +1,25 @@
 <template>
-    <section class="rounded shadow-sm p-3 h-full bg-gray-400 flex flex-col justify-center ">
-        <div class="flex flex-col items-start gap-2">
-            <span class="inline-block bg-slate-50 text-slate-800 rounded-sm p-2 m-2 ">moz://a</span>
-            <h2 class="text-emerald-600 text-3xl font-semibold">This is Second Slider </h2>
-            <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus rerum veniam temporibus, ducimus
-                veritatis corrupti.</p>
+    <div class="h-full container flex flex-row justify-between items-center px-3 bg-white ">
+        <div class="basis-1/2 px-8">
+            <span class="flex items-center px-1 text-2xl text-aqua">
+                <span>Secure Your Data </span>
+                <img class="w-auto h-10 mx-2 " src="@/assets/img/security9.png" />
+            </span>
+            <h1 class="pt-4 text-5xl font-bold leading-tight">
+                We help to make your life more secure.
+            </h1>
 
-            <button type="button"
-                class="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Branding
-                Agency </button>
-
+            <div class="flex flex-row">
+                <button type="button"
+                    class="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-600 dark:focus:ring-blue-800"> Get Service </button>
+                <button type="button"
+                    class="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800"> Get Consulting </button>
+            </div>
         </div>
-
-    </section>
-
-
+        <div class="basis-1/2">
+            <img src="@/assets/img/security7.gif" />
+        </div>
+    </div>
 </template>
 
 <script setup>

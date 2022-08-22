@@ -49,7 +49,7 @@ const list = [
         path:"/outcomes"
     },
     {
-        text:"contact",
+        text:"Contact",
         path:"/contact"
     },
 
