@@ -24,7 +24,7 @@ import NavMenu from "@/components/NavMenu.vue";
 }
 
 .fade-enter-active,
-.fade-leave-action{
+.fade-leave-active{
     transition: opacity 0.5s ease-out;
 }
 </style>
