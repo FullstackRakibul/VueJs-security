@@ -32,8 +32,8 @@
                 <div
                     class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700 ">
                     <a href="#">
-                        <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
-                            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
+                        <img class="w-full h-53 rounded-lg sm:rounded-none sm:rounded-l-lg"
+                            src="@/assets/img/team/profile.jpg"
                             alt="Bonnie Avatar">
                     </a>
                     <div class="p-5 ">
@@ -84,8 +84,8 @@
                 </div>
                 <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
-                        <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
-                            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png"
+                        <img class="w-full h-53 rounded-lg sm:rounded-none sm:rounded-l-lg"
+                            src="@/assets/img/team/profile.jpg"
                             alt="Jese Avatar">
                     </a>
                     <div class="p-5">
@@ -136,9 +136,9 @@
                 </div>
                 <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
-                        <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
-                            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png"
-                            alt="Michael Avatar">
+                        <img class="w-full h-53 rounded-lg sm:rounded-none sm:rounded-l-lg"
+                           src="@/assets/img/team/profile.jpg"
+                            >
                     </a>
                     <div class="p-5">
                         <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -188,8 +188,8 @@
                 </div>
                 <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
-                        <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
-                            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/sofia-mcguire.png"
+                        <img class="w-full h-53 rounded-lg sm:rounded-none sm:rounded-l-lg"
+                            src="@/assets/img/team/profile.jpg"
                             alt="Sofia Avatar">
                     </a>
                     <div class="p-5">
