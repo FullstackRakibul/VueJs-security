@@ -1,4 +1,5 @@
 <template>
+<div>
     <!-- Design Section Start -->
 
     <div @mousemove="onMousemove" :style="{ backgroundColor: `hsl(${x}, 80%, 50%)` }"
@@ -248,6 +249,8 @@
     <Footer />
     <!-- Footer Ends -->
 
+
+</div>
 </template>
 
 
