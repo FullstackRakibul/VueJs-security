@@ -17,7 +17,7 @@ import NavMenu from "@/components/NavMenu.vue";
 <style >
 .slide-fade-enter-active,
 .slide-fade-leave-active {
-  transition: all 800ms linear;
+  transition: all 1000ms linear;
 }
 
 .slide-fade-enter-from{
