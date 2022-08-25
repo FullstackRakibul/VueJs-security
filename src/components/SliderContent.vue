@@ -14,7 +14,7 @@ const props = defineProps(['textColor'])
     }
 
     h2 {
-        font-size: calc(5vw + 30px);
+        font-size: calc(3vw + 30px);
         font-weight: bold;
         white-space: pre;
     }
