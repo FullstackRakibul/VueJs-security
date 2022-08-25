@@ -5,10 +5,10 @@
       @splide:inactive="onInactive"
   >
     <SplideSlide>
-      <Slider1 />
+      <Slider4 />
     </SplideSlide>
     <SplideSlide>
-      <Slider4 />
+      <Slider1 />
     </SplideSlide>
     <SplideSlide>
       <Slider3 />

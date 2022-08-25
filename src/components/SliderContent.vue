@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2> Hello World !</h2>
+        <h2> Welcome to Creative Tech park </h2>
     </div>
 </template>
 
