@@ -1,26 +1,27 @@
 <script setup>
-import NavMenu from "@/components/NavMenu.vue";
+import NavMenu from '@/components/NavMenu.vue';
 </script>
 
 <template>
-    <div>
-        <NavMenu class="fixed top-0 left-0 w-full z-[9999]" />
-        <router-view v-slot="{ Component }">
-            <Transition name="slide-fade" mode="out-in">
-                <Component :is="Component" />
-            </Transition>
-        </router-view>
-    </div>
+  <div class="overflow-hidden">
+    <NavMenu class="fixed top-0 left-0 w-full z-[9999]" />
+    <router-view v-slot="{ Component, route }">
+      <Transition name="slide-fade" mode="out-in">
+        <div :key="route.path">
+          <Component :is="Component" />
+        </div>
+      </Transition>
+    </router-view>
+  </div>
 </template>
 
-
-<style >
+<style>
 .slide-fade-enter-active,
 .slide-fade-leave-active {
-  transition: all 1000ms linear;
+  transition: all 800ms linear;
 }
 
-.slide-fade-enter-from{
+.slide-fade-enter-from {
   transform: translateX(calc(100% + 200px));
   opacity: 0;
 }
