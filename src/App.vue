@@ -1,5 +1,6 @@
 <script setup>
 import NavMenu from '@/components/NavMenu.vue';
+import 'animate.css';
 </script>
 
 <template>

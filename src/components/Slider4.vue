@@ -1,5 +1,5 @@
 <template>
-  <SliderComp class="bg-green-400">
+  <SliderComp class="bg-green-400" >
     <template #left>
       <span class="flex items-center px-1 text-2xl text-aqua">
         <span class=""
@@ -15,8 +15,8 @@
       </h1>
     </template>
 
-    <template #right>
-      <img src="@/assets/img/security4.gif" />
+    <template #right >
+        <img src="@/assets/img/security4.gif" />
     </template>
   </SliderComp>
 </template>

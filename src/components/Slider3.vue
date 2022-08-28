@@ -4,7 +4,7 @@ const show = ref(true);
 </script>
 
 <template>
-  <SliderComp class="bg-sea">
+  <SliderComp class="bg-sea" >
     <template #left>
       <h2 class="text-xl px-2 mb-3">
         Evolving the <br />
@@ -77,7 +77,7 @@ const show = ref(true);
       </p>
     </template>
 
-    <template #right>
+    <template #right >
       <img class="w-auto h-25" src="@/assets/img/security1.gif" />
     </template>
   </SliderComp>

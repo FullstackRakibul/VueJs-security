@@ -1,9 +1,8 @@
 <template>
-  <Splide
-      :options="options"
-      @splide:active="onActive"
-      @splide:inactive="onInactive"
-  >
+  <Splide :options="options"
+          @splide:active="onActive"
+          @splide:inactive="onInactive"
+    >
     <SplideSlide>
       <Slider1 />
     </SplideSlide>
@@ -48,16 +47,17 @@ const options = reactive({
   easing: 'cubic-bezier(.19,.52,.84,.5)',
 });
 
-const className = ['animate__animated', 'animate__bounce'];
+const className = ['animate__animated', 'animate__rubberBand'];
 
 function onActive(Event, Element) {
-  const { index, slide } = Element;
+  const { slide } = Element;
   slide.classList.add(...className);
 }
 function onInactive(Event, Element) {
-  const { index, slide } = Element;
+  const { slide } = Element;
   slide.classList.remove(...className);
 }
+
 </script>
 
 <style>
