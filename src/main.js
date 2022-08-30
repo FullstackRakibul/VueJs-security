@@ -1,6 +1,7 @@
 import { createApp } from 'vue';
 import App from '@/App.vue';
 import '@/assets/main.css';
+import 'animate.css';
 import VueSplide from '@splidejs/vue-splide';
 import router from '@/router/router.js';
 

@@ -9,7 +9,7 @@ const show = ref(true);
       <h2 class="text-xl px-2 mb-3">
         Evolving the <br />
         <h1 class="my-2 text-typing text-7xl font-extrabold text-orange-600">
-          SecurityGard
+          SecurityGuard
         </h1>
       </h2>
       <p class="px-2 font-light leading-relaxed mt-0 mb-0 text-gray-800">
@@ -84,13 +84,6 @@ const show = ref(true);
 </template>
 
 <style>
-.splide__pagination__page.is-active {
-  background: #0039ff;
-}
-
-.splide__pagination__page {
-  background: #7979fa;
-}
 
 .text-typing {
   overflow: hidden;

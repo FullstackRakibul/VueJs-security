@@ -7,13 +7,19 @@
       <Slider1 />
     </SplideSlide>
     <SplideSlide>
+      <slider5/>
+    </SplideSlide>
+    <SplideSlide>
+      <Slider2/>
+    </SplideSlide>
+<!--    <SplideSlide>-->
+<!--      <Slider3 />-->
+<!--    </SplideSlide>-->
+    <SplideSlide>
+      <Slider6/>
+    </SplideSlide>
+    <SplideSlide>
       <Slider4 />
-    </SplideSlide>
-    <SplideSlide>
-      <Slider3 />
-    </SplideSlide>
-    <SplideSlide>
-      <Slider2 />
     </SplideSlide>
   </Splide>
 </template>
@@ -25,9 +31,12 @@ import Slider1 from '@/components/Slider1.vue';
 import Slider2 from '@/components/Slider2.vue';
 import Slider3 from '@/components/Slider3.vue';
 import Slider4 from '@/components/Slider4.vue';
+import Slider5 from "@/components/Slider5.vue";
+import Slider6 from "@/components/Slider6.vue";
 
 import '@splidejs/vue-splide/css';
 import 'animate.css';
+
 
 const options = reactive({
   width: '100vw',
@@ -75,5 +84,14 @@ function onInactive(Event, Element) {
   90% {
     opacity: 0.9;
   }
+}
+
+.splide__pagination__page.is-active {
+  background: #ff2828;
+}
+.splide__pagination__page {
+  background: #ffa1a1;
+  height: 10px;
+  width:10px;
 }
 </style>

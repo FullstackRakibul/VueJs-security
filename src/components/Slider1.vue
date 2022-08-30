@@ -1,26 +1,26 @@
 <script setup>
 import { ref } from 'vue';
 const show = ref(true);
+
 </script>
 
 <template>
-  <SliderComp class="bg-gray-300">
+  <SliderComp class="">
     <template #left>
       <span class="flex items-center px-1 text-2xl text-aqua">
-        <span>Secure Your Data </span>
-        <img class="w-auto h-10 mx-2" src="@/assets/img/security9.png" />
+        <span class="">Secure Your Data </span>
+        <img class="w-auto h-16 mx-2" src="@/assets/img/security-16.gif" />
       </span>
       <div class="inline">
-        <h1 class="text-typing  text-5xl font-extrabold text-orange-600">
-          FireFox
+        <h1 class=" text-4xl font-extrabold text-orange-400 animate__animated animate__wobble">
+          Our business is protecting yours.
         </h1>
       </div>
-      <p class="px-2 font-light leading-relaxed mt-0 mb-0 text-gray-800">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci
-        consectetur aliquam corrupti.
+      <p class="px-2 font-light leading-relaxed  text-gray-800 ">
+        Our Commitment is Keeping you Safe. Our Concern is Security. Peace of mind is a matter of choice.
       </p>
 
-      <div class="flex flex-row mt-4">
+      <div class="flex flex-row mt-4 animate__animated animate__flipInX animate__delay-1s">
         <button
             type="button"
             class="
@@ -72,16 +72,15 @@ const show = ref(true);
           Get Consulting
         </button>
       </div>
-
-      <p v-if="show">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit libero
-        mollitia exercitationem odit itaque accusamus dolorem debitis placeat
-        possimus iusto!
-      </p>
     </template>
 
     <template #right>
-      <img src="@/assets/img/security7.gif" />
+      <div class="flex justify-end">
+        <img src="@/assets/img/security-12.gif" />
+      </div>
+
     </template>
   </SliderComp>
 </template>
+
+
